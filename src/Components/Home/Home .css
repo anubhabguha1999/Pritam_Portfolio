@@ -1,0 +1,41 @@
+/*home section styling*/
+
+.home{
+    display: flex;
+    background: url("https://res.cloudinary.com/dig3gb1rw/image/upload/v1625398529/Blue_and_White_Modern_Technology_Portfolio_Presentation_f6bz8q.png") no-repeat center;
+    height: 90.5vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'ubuntu', sans-serif;
+}    
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1{
+     font-size: 27px;
+}
+
+.home .home-content .text-1 span{
+     font-size: 27px;
+     color: crimson;
+     font-weight: 500;
+}
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0; 
+}
+
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+
