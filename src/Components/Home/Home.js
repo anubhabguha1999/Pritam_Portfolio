@@ -3,8 +3,6 @@ import './Home .css'
 import image from '../../prf-removebg-preview.png'
 export const Home = () => {
   return (
-    // <------home section start------>
-
     <section className="home" id="home" >
       <div className="w-[50%] h-[40rem] flex justify-center items-center">
         <div className="home-content">
