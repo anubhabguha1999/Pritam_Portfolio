@@ -16,7 +16,6 @@ export const Navbar = (props) => {
         <span></span>
         <span></span>
       </div>
-      <button>Click</button>
       <ul className={menuOpen ? "open" : ""}>
         <li>
           <NavLink to="/blog">{props.blog_title}</NavLink>
