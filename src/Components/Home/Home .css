@@ -1,44 +1,42 @@
 /*home section styling*/
 
-.home{
-    display: flex;
-    background: url("../../prf-removebg-preview.png") no-repeat center;
-    height: 90.5vh;
-    color: #fff;
-    min-height: 500px;
-    --tw-bg-opacity: 1;
-    background-color: rgba(35,39,43,var(--tw-bg-opacity));
-    font-family: 'ubuntu', sans-serif;
-    padding-left: 1.2rem;
-}    
-
-.home .max-width{
-    margin: auto 0 auto 40px;
+.home {
+  display: flex;
+  height: 90.5vh;
+  color: #fff;
+  min-height: 90vh;
+  --tw-bg-opacity: 1;
+  background-color: rgba(35, 39, 43, var(--tw-bg-opacity));
+  font-family: "ubuntu", sans-serif;
+  padding-left: 1.2rem;
 }
 
-.home .home-content .text-1{
-     font-size: 27px;
+.home .max-width {
+  margin: auto 0 auto 40px;
 }
 
-.home .home-content .text-1 span{
-     font-size: 27px;
-     color: crimson;
-     font-weight: 500;
+.home .home-content .text-1 {
+  font-size: 27px;
 }
 
-.home .home-content .text-2{
-    font-size: 75px;
-    font-weight: 600;
-    margin-left: -3px;
+.home .home-content .text-1 span {
+  font-size: 27px;
+  color: crimson;
+  font-weight: 500;
 }
 
-.home .home-content .text-3{
-    font-size: 40px;
-    margin: 5px 0; 
+.home .home-content .text-2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
 }
 
-.home .home-content .text-3 span{
-    color: crimson;
-    font-weight: 500;
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
 }
 
+.home .home-content .text-3 span {
+  color: crimson;
+  font-weight: 500;
+}
