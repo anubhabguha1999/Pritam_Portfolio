@@ -9,7 +9,8 @@ nav {
     background-color: rgba(35,39,43);
     color: white;
     position: sticky;
-    
+    padding-right: 4rem;
+    padding-left: 2.3rem;
     top: 0;
     font-weight: 700;
 }
@@ -17,8 +18,9 @@ nav {
 nav .title {
     font-size: 1.5rem;
     margin: 1rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-decoration: none;
+    font-weight: inherit;
     color: white;
 }
 
@@ -65,8 +67,18 @@ nav .menu span {
     border-radius: 0.2rem;
 }
 
+.navbar.sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+.navbar.sticky .logo a span{
+    color: #fff ;
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff ;
+}
 
-@media (max-width: 480px) {
+@media (max-width: 550px) {
     nav .menu {
         display: flex;
     }
@@ -90,9 +102,16 @@ nav .menu span {
     nav ul li {
         width: 100%;
         text-align: center;
+        border: 2px solid crimson;
+        border-radius: 0.5rem;
+        margin-bottom: 0.7rem;
     }
 
     nav ul li a {
         margin: 0.2rem 0.5rem;
     }
+
+    /* nav ul li a:not(.active):hover {
+        background-color:crimson ;
+    } */
 }
