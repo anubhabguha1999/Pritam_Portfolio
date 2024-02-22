@@ -22,7 +22,6 @@ nav .title {
     /* font-weight: bold; */
     text-decoration: none;
     font-weight: inherit;
-    color: white;
 }
 
 nav .title a:not(.active):hover {
